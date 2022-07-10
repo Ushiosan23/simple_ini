@@ -14,7 +14,9 @@ object Projects {
 
 		const val NAME = "simple_ini"
 		const val VERSION = "0.1.0"
-		const val DESCRIPTION = """"""
+		const val DESCRIPTION = """
+			Library for managing ini files
+		"""
 
 		// Maven config
 
