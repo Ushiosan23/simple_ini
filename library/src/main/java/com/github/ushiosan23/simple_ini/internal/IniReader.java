@@ -2,7 +2,7 @@ package com.github.ushiosan23.simple_ini.internal;
 
 import com.github.ushiosan23.jvm.functions.apply.IApply;
 import com.github.ushiosan23.simple_ini.Ini;
-import com.github.ushiosan23.simple_ini.convertion.StringConverter;
+import com.github.ushiosan23.simple_ini.conversion.StringConverter;
 import com.github.ushiosan23.simple_ini.section.SimpleSection;
 import com.github.ushiosan23.simple_ini.section.advanced.SectionAdvanced;
 import com.github.ushiosan23.simple_ini.section.data.SectionInfoTmp;

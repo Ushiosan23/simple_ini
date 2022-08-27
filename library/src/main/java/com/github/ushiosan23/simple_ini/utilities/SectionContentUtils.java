@@ -1,7 +1,7 @@
 package com.github.ushiosan23.simple_ini.utilities;
 
 import com.github.ushiosan23.jvm.collections.Containers;
-import com.github.ushiosan23.simple_ini.convertion.StringConverter;
+import com.github.ushiosan23.simple_ini.conversion.StringConverter;
 import com.github.ushiosan23.simple_ini.section.data.SectionInfoTmp;
 import org.intellij.lang.annotations.RegExp;
 import org.jetbrains.annotations.Contract;

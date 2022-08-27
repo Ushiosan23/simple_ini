@@ -80,7 +80,7 @@ public class SimpleIniTest {
 		for (var section : ini.getSections()) {
 			for (int i = 0; i < 10; i++) {
 				String randomKey = Rand.getRandomString(
-					Rand.getSystemRandom().nextInt(1, 15),
+					Rand.getSystemRandom().nextInt(15),
 					Rand.RAND_LETTERS);
 				String randomValue = Rand.getRandomString(Rand.getSystemRandom().nextInt(50));
 				// Insert content

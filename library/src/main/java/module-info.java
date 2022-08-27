@@ -6,14 +6,14 @@
  * (not recommended if only common use of ini files is desired).
  * Also, if you wish you can add functionality thanks to the interfaces that are available.
  */
-@SuppressWarnings("JavaModuleNaming")
-module com.github.ushiosan23.simple_ini {
+module com.github.ushiosan.simple_ini {
 	requires static org.jetbrains.annotations;
-	requires static com.github.ushiosan23.jvm;
+	requires static com.github.ushiosan.jvm;
 
-	exports com.github.ushiosan23.simple_ini;
-	exports com.github.ushiosan23.simple_ini.section;
-	exports com.github.ushiosan23.simple_ini.section.data;
+	exports com.github.ushiosan23.simple_ini.conversion;
 	exports com.github.ushiosan23.simple_ini.section.advanced;
+	exports com.github.ushiosan23.simple_ini.section.data;
+	exports com.github.ushiosan23.simple_ini.section;
 	exports com.github.ushiosan23.simple_ini.utilities;
+	exports com.github.ushiosan23.simple_ini;
 }

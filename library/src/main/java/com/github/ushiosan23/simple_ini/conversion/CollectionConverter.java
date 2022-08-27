@@ -1,4 +1,4 @@
-package com.github.ushiosan23.simple_ini.convertion;
+package com.github.ushiosan23.simple_ini.conversion;
 
 import com.github.ushiosan23.jvm.collections.Arr;
 import com.github.ushiosan23.jvm.collections.Containers;

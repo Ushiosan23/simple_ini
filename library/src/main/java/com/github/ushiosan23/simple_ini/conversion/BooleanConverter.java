@@ -1,4 +1,4 @@
-package com.github.ushiosan23.simple_ini.convertion;
+package com.github.ushiosan23.simple_ini.conversion;
 
 import com.github.ushiosan23.jvm.collections.Containers;
 import org.jetbrains.annotations.NotNull;
@@ -15,9 +15,9 @@ public final class BooleanConverter {
 	/**
 	 * All possible boolean values
 	 */
-	private static final Map<String, List<String>> acceptedBooleanValues = Containers.mapOf(
-		Containers.entry("trueValues", Containers.listOf("true", "1", "yes", "y")),
-		Containers.entry("falseValues", Containers.listOf("false", "0", "no", "n"))
+	private static final Map<Character, List<String>> acceptedBooleanValues = Containers.mapOf(
+		Containers.entry('t', Containers.listOf("true", "1", "yes", "y")),
+		Containers.entry('f', Containers.listOf("false", "0", "no", "n"))
 	);
 
 	/**
@@ -47,9 +47,9 @@ public final class BooleanConverter {
 			.trim();
 
 		// Check boolean values
-		if (acceptedBooleanValues.get("trueValues").contains(data))
+		if (acceptedBooleanValues.get('t').contains(data))
 			return Optional.of(true);
-		if (acceptedBooleanValues.get("falseValues").contains(data))
+		if (acceptedBooleanValues.get('f').contains(data))
 			return Optional.of(false);
 
 		return Optional.empty();

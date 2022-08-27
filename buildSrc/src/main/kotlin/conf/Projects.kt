@@ -13,7 +13,7 @@ object Projects {
 		// Project config
 
 		const val NAME = "simple_ini"
-		const val VERSION = "0.1.0"
+		const val VERSION = "0.1.1"
 		const val DESCRIPTION = """
 			Library for managing ini files
 		"""

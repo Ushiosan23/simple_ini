@@ -1,4 +1,4 @@
-package com.github.ushiosan23.simple_ini.convertion;
+package com.github.ushiosan23.simple_ini.conversion;
 
 import org.intellij.lang.annotations.RegExp;
 import org.jetbrains.annotations.NotNull;

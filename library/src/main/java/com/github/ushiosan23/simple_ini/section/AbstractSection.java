@@ -2,9 +2,9 @@ package com.github.ushiosan23.simple_ini.section;
 
 import com.github.ushiosan23.jvm.collections.Containers;
 import com.github.ushiosan23.jvm.functions.apply.IApply;
-import com.github.ushiosan23.simple_ini.convertion.BooleanConverter;
-import com.github.ushiosan23.simple_ini.convertion.CollectionConverter;
-import com.github.ushiosan23.simple_ini.convertion.NumberConverter;
+import com.github.ushiosan23.simple_ini.conversion.BooleanConverter;
+import com.github.ushiosan23.simple_ini.conversion.CollectionConverter;
+import com.github.ushiosan23.simple_ini.conversion.NumberConverter;
 import com.github.ushiosan23.simple_ini.utilities.SectionUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
