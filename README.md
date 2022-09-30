@@ -1,8 +1,6 @@
 # Simple INI
 
-[![
-javadoc
-](https://javadoc.io/badge2/com.github.ushiosan23/simple--ini/simple--ini.svg?logo=openjdk)](https://javadoc.io/doc/com.github.ushiosan23/simple_ini)
+[![javadoc](https://javadoc.io/badge2/com.github.ushiosan23/simple-ini/simple--ini.svg?logo=openjdk)](https://javadoc.io/doc/com.github.ushiosan23/simple-ini)
 
 A lightweight library for loading and handling ini files and data.
 
