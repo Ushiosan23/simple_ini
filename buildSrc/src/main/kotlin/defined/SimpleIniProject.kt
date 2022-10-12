@@ -68,7 +68,7 @@ object SimpleIniProject : SimpleJavaProject, SimpleMavenProject {
 	override val javadocInfo: SimpleJavaProject.JavadocInfo
 		get() = SimpleJavaProject.JavadocInfo(
 			urls = javadocLinksOf(
-				"https://javadoc.io/doc/com.github.ushiosan23/jvm-utilities/0.2.3"
+				"https://javadoc.io/doc/com.github.ushiosan23/jvm-utilities/latest"
 			)
 		)
 
