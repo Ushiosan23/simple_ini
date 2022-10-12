@@ -15,7 +15,7 @@ import publishing.*
 val SimpleIniProject.releasePublication
 	get() = PublicationInfo(
 		name = "release",
-		version = "0.2.0",
+		version = "0.2.1",
 		pom = PublicationPom(
 			artifactUrl = "https://github.com/Ushiosan23/simple_ini",
 			description = "Library for managing ini files",
@@ -26,7 +26,6 @@ val SimpleIniProject.releasePublication
 	)
 
 object SimpleIniProject : SimpleJavaProject, SimpleMavenProject {
-
 	private lateinit var projectImpl: Project
 
 	/* -----------------------------------------------------
@@ -69,7 +68,7 @@ object SimpleIniProject : SimpleJavaProject, SimpleMavenProject {
 	override val javadocInfo: SimpleJavaProject.JavadocInfo
 		get() = SimpleJavaProject.JavadocInfo(
 			urls = javadocLinksOf(
-				"https://javadoc.io/doc/com.github.ushiosan23/jvm-utilities/0.2.2"
+				"https://javadoc.io/doc/com.github.ushiosan23/jvm-utilities/0.2.3"
 			)
 		)
 
@@ -100,7 +99,7 @@ object SimpleIniProject : SimpleJavaProject, SimpleMavenProject {
 	 */
 	override fun dependencyMap(): Map<Any, List<*>?> = dependencyOf(
 		TypeDependency.IMPLEMENTATION to listOf<Any>(
-			"com.github.ushiosan23:jvm-utilities:0.2.2"
+			"com.github.ushiosan23:jvm-utilities:0.2.3"
 		)
 	)
 
